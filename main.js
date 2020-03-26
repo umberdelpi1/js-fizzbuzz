@@ -2,18 +2,20 @@
 for(var i = 1; i <= 100; i++) {
 
   console.log(i);
+
   if(i%3==0){
   console.log("Fizz " + i)
-  } else if (i%5==0){
+  }
+  
+   if (i%5==0){
     console.log("Buzz" + i)
   }
+
+  if(i%15==0){
+    console.log("FizzBuzz" + i);
+  }
+
 }
-
-
-
-
-
-
 
 
 // I numeri multipli di 3 stampare "Fizz" al posto del numero
